@@ -17,6 +17,7 @@
     font-weight: 600;
     font-size: semi-bold ;
     color: white;
+    cursor: pointer;
 }
 
 /* main style */
@@ -43,4 +44,49 @@ nav .menu a{
     font-size: 16px;
     color: #000000;
     text-decoration: none;
+}
+
+
+#banner{
+    border: 1px solid rgb(255, 187, 0); 
+    margin: 24px 0;
+    align-items: center;
+}
+
+.banner-cont {
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom:24px ;
+    color:#30B868 ;
+}
+
+.banner-contant{
+    padding:116px ;
+    text-align: center ;
+}
+.banner-contant h1{
+    font-size: bold;
+    font-weight: 700px;
+    text-align: center;
+    color:#FFFFFF ;
+}
+
+.banner-contant span{
+    color: #30B868;
+}
+.banner-contant p{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 18px;
+    margin-bottom: 32px;
+    color:#FFFFFF ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+section{
+    background-image: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
 }
