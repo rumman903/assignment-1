@@ -141,3 +141,46 @@ nav .menu a{
     line-height: 20px;
     font-weight: 400px;
 }
+
+.about-container{
+    margin: 0 auto;
+    display: flex;
+    padding: 120px;
+    justify-content: space-between;
+    gap: 60px;
+
+}
+
+.about-text{
+   padding: 102px;
+}
+.about-container p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 16px;
+}
+
+.about-container h2{
+    font-size: 700px;
+    font-size: 48px;
+
+
+}
+.about-container span{
+    color: #469165;
+}
+
+.about-container ul{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 40px;
+
+}
+.about-container li{
+    gap: 16px;
+    color:#001931 ;
+    font-weight: 500px;
+    font-size: medium;
+}
