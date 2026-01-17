@@ -48,7 +48,7 @@ nav .menu a{
 
 
 #banner{
-    border: 1px solid rgb(255, 187, 0); 
+    /* border: 1px solid rgb(255, 187, 0);  */
     margin: 24px 0;
     align-items: center;
 }
@@ -87,6 +87,57 @@ nav .menu a{
     gap: 16px;
 }
 
-section{
+#banner {
     background-image: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
+}
+
+
+.motivation-container{
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.motivation-container h2 {
+    font-weight: 700px;
+    font-size: 48px;
+}
+.motivation-container p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    
+    margin-bottom: 44px;
+}
+
+.motivation-box{
+    display: flex;
+    gap: 24px;
+    width: 1360px; 
+    /* border: 1px solid red; */
+
+}
+.motivation-box .motivation-card{
+    padding: 70px;
+    /* border: 1px solid red; */
+    max-width: 322px;
+    box-shadow: 0 0 8px 0 #0000000F;
+}
+.motivation-card img{
+    max-width: 60px;
+    margin-bottom:16px ;
+    background-color:#F95555 ;
+}
+.motivation-card h3{
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.motivation-card p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400px;
 }
